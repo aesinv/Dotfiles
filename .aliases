@@ -20,9 +20,15 @@ alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.c
 
 # handy things
 alias bunyip='node ~/code/bunyip/cli.js'
+# control spotify via the terminal
+# https://github.com/dronir/SpotifyControl
 alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
 alias vlc="osascript ~/code/VLCControl/VLCControl.scpt"
 
+# Spotify aliases
+alias thisSong="spotify info"
+alias nextSong="spotify next"
+alias lastSong="spotify prev"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -55,12 +61,20 @@ alias c='pygmentize -O style=monokai -f console256 -g'
 
 # GIT STUFF
 
+# Fast stuff
+alias gcheckout="git checkout"
+alias gcommit="git commit"
+alias gaddall="git add --all"
+
 # Undo a `git push`
 alias undopush="git push -f origin HEAD^:master"
 
 
 # git root
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
+
+# git-flow, u da bes
+alias flow="git-flow"
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"

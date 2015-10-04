@@ -1,42 +1,47 @@
 # Install native apps
-# Usage: `brew bundle Caskfile`
-
-install caskroom/cask/brew-cask
-tap caskroom/versions
+# Usage: `./tap-keg.sh`
 
 # daily
-cask install alfred 				2> /dev/null
-cask install divvy 					2> /dev/null
-cask install dropbox 				2> /dev/null
-cask install gyazo 					2> /dev/null
-cask install onepassword 				2> /dev/null
-cask install rescuetime 				2> /dev/null
-# cask install flux 					2> /dev/null
+filezilla
+alfred
+divvy
+dropbox
+gyazo
+onepassword
+rescuetime
+
+#envs
+vagrant
+virtualbox
+vlc
+java
+
+#editors
+sublime-text
+brackets
+unity
 
 # dev
-cask install iterm2 					2> /dev/null
-cask install sublime-text 				2> /dev/null
-cask install imagealpha 				2> /dev/null
-cask install imageoptim 				2> /dev/null
+iterm2
+imagealpha
+imageoptim
+phantomjs
 
 # fun
-cask install limechat 					2> /dev/null
-cask install miro-video-converter 		2> /dev/null
+limechat
+openemu
+miro-video-converter
 
 # browsers
-cask install google-chrome-canary 			2> /dev/null
-cask install firefox-nightly 				2> /dev/null
-cask install webkit-nightly 				2> /dev/null
-cask install torbrowser 					2> /dev/null
+google-chrome-canary
+firefox-nightly
+webkit-nightly
 
 # less often
-cask install disk-inventory-x 				2> /dev/null
-cask install screenflow 					2> /dev/null
-cask install vlc 							2> /dev/null
-
-
+disk-inventory-x
+screenflow
 # Not on cask but I want regardless.
-
+# xCode
 # 3Hub
 # File Multi Tool 5
 # Phosphor
