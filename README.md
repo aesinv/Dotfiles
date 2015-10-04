@@ -1,4 +1,6 @@
-# Paul's dotfiles
+# Matt's dotfiles
+
+Shamelessly forked from [Paul Irish's](https://github.com/paulirish/dotfiles)'s dotfiles :). The following is his readme.
 
 [mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
 
